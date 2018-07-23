@@ -20,16 +20,11 @@
   </web-resource>
   <web-section name="mySection" i18n-name-key="my-section.name" key="my-section" location="my-item-link" weight="1000">
     <description key="my-section.description">The mySection Plugin</description>
+    <label key="my-section.label"/>
   </web-section>
   <web-item name="myItem" i18n-name-key="my-item.name" key="my-item" section="system.top.navigation.bar" weight="1000">
     <description key="my-item.description">The myItem Plugin</description>
-    <label key="my-item.label"/>
-    <link linkId="my-item-link"/>
-  </web-item>
-  <web-item name="Atlassian Developers Site" i18n-name-key="atlassian-developers-site.name" 
-            key="atlassian-developers-site" section="my-item-link/my-section" weight="1000">
-    <description key="atlassian-developers-site.description">The Atlassian Developers Site Plugin</description>
-    <label key="atlassian-developers-site.label"></label>
-    <link linkId="atlassian-developers-site-link">http://developer.atlassian.com/docs</link>
+    <label key="my-item.label"></label>
+    <link linkId="my-item-link">deleteMe</link>
   </web-item>
 </atlassian-plugin>
