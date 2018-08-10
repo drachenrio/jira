@@ -1,0 +1,7 @@
+Definition and Usage<br/>
+The toUpperCase() method converts a string to uppercase letters.<br/>
+<br/>
+Note: The toUpperCase() method does not change the original string.<br/>
+<br/>
+Tip: Use the toLowerCase() method to convert a string to lowercase letters.<br/>
+
